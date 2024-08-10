@@ -3,6 +3,7 @@ import React, { useRef, useEffect } from 'react';
 interface ThreeDTiltProps {
   options?: TiltOptions;
   children: React.ReactNode;
+  className?: string;
 }
 
 interface TiltOptions {
@@ -19,7 +20,11 @@ interface TiltOptions {
   glarePrerender?: boolean;
 }
 
-const ThreeDTilt: React.FC<ThreeDTiltProps> = ({ options, children }) => {
+const ThreeDTilt: React.FC<ThreeDTiltProps> = ({
+  options,
+  children,
+  className,
+}) => {
   const tiltRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -233,7 +238,14 @@ const ThreeDTilt: React.FC<ThreeDTiltProps> = ({ options, children }) => {
     return () => destroyTilt();
   }, [options]);
 
-  return <div ref={tiltRef}>{children}</div>;
+  return (
+    <div
+      className={`tilt-image-wrapper ${className ? className : ''}`}
+      ref={tiltRef}
+    >
+      {children}
+    </div>
+  );
 };
 
 export default ThreeDTilt;
