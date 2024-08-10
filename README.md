@@ -24,7 +24,7 @@ yarn add 3DTilt
 
 ```tsx
 import React from 'react';
-import ThreeDTilt from '3DTilt';
+import ThreeDTilt from '3dtilt';
 
 const BasicExample = () => {
   return (
@@ -66,7 +66,7 @@ The maximum tilt angle in degrees.
 
 ```tsx
 import React from 'react';
-import ThreeDTilt from '3DTilt';
+import ThreeDTilt from '3dtilt';
 
 const MaxTiltExample = () => {
   return (
@@ -89,7 +89,7 @@ The distance from the viewer to the element, which affects the depth of the 3D e
 
 ```tsx
 import React from 'react';
-import ThreeDTilt from '3DTilt';
+import ThreeDTilt from '3dtilt';
 
 const PerspectiveExample = () => {
   return (
@@ -112,7 +112,7 @@ The CSS easing function for the transition effect.
 
 ```tsx
 import React from 'react';
-import ThreeDTilt from '3DTilt';
+import ThreeDTilt from '3dtilt';
 
 const EasingExample = () => {
   return (
@@ -135,7 +135,7 @@ The scaling factor applied to the element when it is tilted.
 
 ```tsx
 import React from 'react';
-import ThreeDTilt from '3DTilt';
+import ThreeDTilt from '3dtilt';
 
 const ScaleExample = () => {
   return (
@@ -158,7 +158,7 @@ The speed of the transition in milliseconds.
 
 ```tsx
 import React from 'react';
-import ThreeDTilt from '3DTilt';
+import ThreeDTilt from '3dtilt';
 
 const SpeedExample = () => {
   return (
@@ -181,7 +181,7 @@ Determines whether transitions should be used.
 
 ```tsx
 import React from 'react';
-import ThreeDTilt from '3DTilt';
+import ThreeDTilt from '3dtilt';
 
 const TransitionExample = () => {
   return (
@@ -204,7 +204,7 @@ Disables tilt on the `'x'` or `'y'` axis.
 
 ```tsx
 import React from 'react';
-import ThreeDTilt from '3DTilt';
+import ThreeDTilt from '3dtilt';
 
 const DisableAxisExample = () => {
   return (
@@ -227,7 +227,7 @@ Resets the tilt effect when the mouse leaves the element.
 
 ```tsx
 import React from 'react';
-import ThreeDTilt from '3DTilt';
+import ThreeDTilt from '3dtilt';
 
 const ResetExample = () => {
   return (
@@ -250,7 +250,7 @@ Adds a glare effect to the element.
 
 ```tsx
 import React from 'react';
-import ThreeDTilt from '3DTilt';
+import ThreeDTilt from '3dtilt';
 
 const GlareExample = () => {
   return (
@@ -273,7 +273,7 @@ The maximum opacity of the glare effect.
 
 ```tsx
 import React from 'react';
-import ThreeDTilt from '3DTilt';
+import ThreeDTilt from '3dtilt';
 
 const MaxGlareExample = () => {
   return (
@@ -296,7 +296,7 @@ Determines whether the glare effect is prerendered.
 
 ```tsx
 import React from 'react';
-import ThreeDTilt from '3DTilt';
+import ThreeDTilt from '3dtilt';
 
 const GlarePrerenderExample = () => {
   return (
