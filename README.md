@@ -314,6 +314,3 @@ export default GlarePrerenderExample;
 ## License
 
 This project is open-source and available under the [MIT License](LICENSE).
-```
-
-This `README.md` now provides a separate example for each of the available options in the `ThreeDTilt` component. This should make it easy for users to understand and implement each feature individually.
