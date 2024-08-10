@@ -1,6 +1,6 @@
 {
   "name": "3dtilt",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": false,
   "description": "A lightweight React component for creating a 3D tilt effect with customizable options.",
   "main": "dist/bundle.js",
