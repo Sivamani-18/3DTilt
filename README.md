@@ -1,5 +1,13 @@
 # 3DTilt
 
+[![npm version](https://img.shields.io/npm/v/3dtilt.svg?style=flat)](https://www.npmjs.com/package/3dtilt)
+[![npm downloads](https://img.shields.io/npm/dt/3dtilt.svg?style=flat)](https://www.npmjs.com/package/3dtilt)
+[![npm license](https://img.shields.io/npm/l/3dtilt.svg?style=flat)](https://www.npmjs.com/package/3dtilt)
+[![npm bundle size](https://img.shields.io/bundlephobia/min/3dtilt.svg)](https://www.npmjs.com/package/3dtilt)
+[![GitHub stars](https://img.shields.io/github/stars/Sivamani-18/3DTilt.svg?style=social)](https://github.com/Sivamani-18/3DTilt/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Sivamani-18/3DTilt.svg?style=social)](https://github.com/Sivamani-18/3DTilt/network/members)
+
+
 `3DTilt` is a React component that adds a 3D tilt effect to any element. It offers various customization options to fine-tune the effect, including tilt angles, perspective, transition speed, and optional glare effects.
 
 ## Installation
