@@ -39,6 +39,23 @@ const BasicExample = () => {
 export default BasicExample;
 ```
 
+## Options
+
+| Option Name      | Type          | Default Value                              | Description                                                                 |
+|------------------|---------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| `maxTilt`        | `number`      | `20`                                       | The maximum tilt angle in degrees.                                          |
+| `perspective`    | `number`      | `300`                                      | The perspective distance in pixels.                                         |
+| `easing`         | `string`      | `'cubic-bezier(.03,.98,.52,.99)'`          | The CSS easing function for transitions.                                    |
+| `scale`          | `number`      | `1`                                        | The scaling factor applied to the element when tilted.                      |
+| `speed`          | `number`      | `400`                                      | The speed of the transition in milliseconds.                                |
+| `transition`     | `boolean`     | `true`                                     | Determines whether transitions should be used.                              |
+| `disableAxis`    | `'x' | 'y' | null` | `null`                                 | Disables tilting along the specified axis.                                  |
+| `reset`          | `boolean`     | `true`                                     | Resets the tilt effect when the mouse leaves the element.                   |
+| `glare`          | `boolean`     | `false`                                    | Adds a glare effect to the element.                                         |
+| `maxGlare`       | `number`      | `1`                                        | The maximum opacity of the glare effect.                                    |
+| `glarePrerender` | `boolean`     | `false`                                    | Determines whether the glare effect is prerendered.                         |
+
+
 ## Options and Separate Examples
 
 ### 1. `maxTilt` (number)
