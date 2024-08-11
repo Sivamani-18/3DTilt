@@ -10,6 +10,9 @@
 
 `3DTilt` is a React component that adds a 3D tilt effect to any element. It offers various customization options to fine-tune the effect, including tilt angles, perspective, transition speed, and optional glare effects.
 
+![CPT2408111336-545x502](https://github.com/user-attachments/assets/5c1309db-9a06-4579-aff9-f0061ac52884)
+
+
 ## Installation
 
 You can install the `3DTilt` package using npm or Yarn.
@@ -17,13 +20,13 @@ You can install the `3DTilt` package using npm or Yarn.
 ### npm
 
 ```bash
-npm install 3DTilt
+npm install 3dtilt
 ```
 
 ### yarn
 
 ```bash
-yarn add 3DTilt
+yarn add 3dtilt
 ```
 
 ## Usage
