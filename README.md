@@ -10,8 +10,9 @@
 
 `3DTilt` is a React component that adds a 3D tilt effect to any element. It offers various customization options to fine-tune the effect, including tilt angles, perspective, transition speed, and optional glare effects.
 
+<!--
 ![CPT2408111336-545x502](https://github.com/user-attachments/assets/5c1309db-9a06-4579-aff9-f0061ac52884)
-
+-->
 
 ## Installation
 
